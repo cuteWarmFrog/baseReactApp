@@ -1,0 +1,41 @@
+{
+  "name": "basereactapp",
+  "version": "1.0.0",
+  "description": "base react+webpack+typescript app",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuteWarmFrog/baseReactApp.git"
+  },
+  "author": "cuteWarmFrog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuteWarmFrog/baseReactApp/issues"
+  },
+  "homepage": "https://github.com/cuteWarmFrog/baseReactApp#readme",
+  "dependencies": {
+    "@bem-react/classname": "^1.5.12",
+    "@bem-react/core": "^3.0.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.30",
+    "@types/react-dom": "^17.0.9",
+    "@types/webpack": "^5.28.0",
+    "css-loader": "^6.4.0",
+    "html-webpack-plugin": "^4.5.2",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}

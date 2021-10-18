@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "target": "es5",
+      "module": "ESnext",
+      "moduleResolution": "node",
+      "jsx": "react-jsx",
+      "isolatedModules": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "allowSyntheticDefaultImports": true
+    }
+  }
